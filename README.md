@@ -352,42 +352,23 @@ I enjoy solving real-world problems through clean architecture, secure coding pr
 
 public class Developer {
 
-
-
     private final String role =
-
             "Backend Developer | Spring Boot Enthusiast";
 
-
-
     private final String[] interests = {
-
             "Java",
-
             "Spring Boot",
-
             "Cybersecurity",
-
             "Blockchain",
-
             "React"
-
     };
 
-
-
     public String build() {
-
         return "Building secure, scalable and production-ready applications 🚀";
-
     }
 
-
-
     public static void main(String[] args) {
-
         System.out.println(new Developer().build());
-
     }
 
 }
